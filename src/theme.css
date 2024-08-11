@@ -1,0 +1,13 @@
+/* setting theme colors */
+
+:root {
+ 
+    --primary-color: #000000;
+    /* on-primary-color  */
+    --on-primary-color: #ffffff;
+    /* secondary-color */
+    --secondary-color: #ffffff;
+    /* on-secondary-color */
+    --on-secondary-color: #000000;
+   
+}

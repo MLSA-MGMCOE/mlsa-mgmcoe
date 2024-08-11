@@ -1,0 +1,53 @@
+@import url("../theme.css");
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+}
+
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .header-container .logo{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+header .header-container .logo img{
+    width: 100%;
+}
+
+header .header-container .nav-link{
+    /* change color */
+    color: var(--on-primary-color) !important;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+header .header-container .nav-link:hover{
+    /* change color */
+    color: var(--on-secondary-color) !important;
+    text-decoration: underline;
+    background: var(--secondary-color);
+    font-weight: bolder;
+}
+
+header .header-container .nav-link.active{
+    /* change color */
+    color: var(--on-secondary-color) !important;
+    text-decoration: underline;
+    background: var(--secondary-color);
+    font-weight: bolder;
+}
